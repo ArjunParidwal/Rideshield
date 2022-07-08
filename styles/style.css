@@ -1,0 +1,35 @@
+.b {
+  background: #F5F5F5;
+  padding:2% 2% 2% 2%;
+}
+
+
+
+.siderbar {
+  background-color: white;
+  border-radius:20px;
+  
+}
+
+.rightbar {
+  background-color: white;
+  margin-left:20px;
+}
+
+/*  */
+
+.nav-item{
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid#F5F5F5;;
+}
+
+.col-md-4.siderbar {
+  width: 24%;
+}
+
+span.ms-1.d-none.d-sm-inline{
+  padding-left: 15px;
+}
