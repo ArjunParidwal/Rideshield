@@ -55,6 +55,12 @@ span.ms-1.d-sm-inline{
 .row.dt{
   padding:10px 0px 0px 10px;
   border-bottom: 2px solid#F5F5F5;
+  margin-left:-1px;
+  margin-right: -1px;
   
 }
 
+.icons{
+  height: 22px;
+  padding-right: 14px;
+}

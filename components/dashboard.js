@@ -6,12 +6,12 @@ const dashboard = () => {
    <div className="col-md-8 rightbar">
    <div className="col-md-6 c">
       <center><h4>Overview</h4></center>
-      <div class="row dt">
+      <div className="row dt">
          <div className="col-sm-6">
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/battery_id.png'></img></td>
+                     <td><img src='../images/battery_id.png' className='icons'/></td>
                      <td>
                         <p>Battery ID<br/>#45672D</p>
                      </td>
@@ -23,7 +23,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/error.png'></img></td>
+                     <td><img src='../images/Battery_Configuration.png' className='icons' /></td>
                      <td>
                         <p>Battery Configuration<br/>#45672D</p>
                      </td>
@@ -32,12 +32,12 @@ const dashboard = () => {
             </table>
          </div>
       </div>
-      <div class="row dt">
+      <div className="row dt">
          <div className="col-sm-6">
             <table>
                <tbody>
                   <tr>
-                     <td><i class="bi bi-battery-full"></i></td>
+                     <td><img src='../images/batter_collection.png' className='icons' /></td>
                      <td>
                         <p>BMS Version<br/>#45672D</p>
                      </td>
@@ -49,7 +49,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><i class="bi bi-battery-full"></i></td>
+                     <td><img src='../images/Chemistry.png' className='icons' /></td>
                      <td>
                         <p>Chemistry<br/>#45672D</p>
                      </td>
@@ -58,12 +58,12 @@ const dashboard = () => {
             </table>
          </div>
       </div>
-      <div class="row dt">
+      <div className="row dt">
          <div className="col-sm-6">
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/battery-level.png'></img></td>
+                     <td><img src='../images/battery-level.png' className='icons' /></td>
                      <td>
                         <p>Battery Status<br/>#45672D</p>
                      </td>
@@ -75,7 +75,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/low-battery.png'></img></td>
+                     <td><img src='../images/low-battery.png' className='icons' /></td>
                      <td>
                         <p>(Discharging)<br/>20%</p>
                      </td>
@@ -84,12 +84,12 @@ const dashboard = () => {
             </table>
          </div>
       </div>
-      <div class="row dt">
+      <div className="row dt">
          <div className="col-sm-6">
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/error_2.png'></img></td>
+                     <td><img src='../images/error_2.png' className='icons'/></td>
                      <td>
                         <p>Faults (OCV, UV, etc)<br/>#45672D</p>
                      </td>
@@ -103,7 +103,7 @@ const dashboard = () => {
                   <tr>
                      <td></td>
                      <td>
-                        <p>Network Issue<br/><img src='../images/error.png'></img>456</p>
+                        <p>Network Issue<br/><img src='../images/error.png' className='icons' />456</p>
                      </td>
                   </tr>
                </tbody>
