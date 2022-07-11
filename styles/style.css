@@ -71,8 +71,16 @@ span.ms-1.d-sm-inline{
 }
 
 .meterbox{
-  height:150px;
-  width:190px;
+  height:200px;
+  width:220px;
 background:#2e2e4a;
 border-radius: 20px;
+padding-top: 10px;
+padding-left: 10px;
+}
+
+.speedh{
+  color: white;
+  text-align:center;
+  font-size:22px;
 }

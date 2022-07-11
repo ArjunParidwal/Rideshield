@@ -1,5 +1,5 @@
 import React from 'react'
-// import ReactSpeedometer from "react-d3-speedometer"
+import ReactSpeedometer from "react-d3-speedometer"
 
 
 const dashboard = () => {
@@ -112,128 +112,153 @@ const dashboard = () => {
             </table>
          </div>
       </div>
+
       {/* Speed Meter Start*/}
       <div className="row dt">
-         <div className="col-sm-6">
-            <table>
-               <tbody>
-                  <tr>
-                     <td>
-
-
-                     <div className='meterbox'>
-{/* <ReactSpeedometer
-
-customSegmentStops={[0, 500, 700, 800, 900, 1000]}
-segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-value={333}
-/> */}
-</div>
-                    
-                     
-
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <div className="col-sm-6">
-            <table>
-               <tbody>
-                  <tr>
-                     <td>
-                     
-                     <div className='meterbox'>
-                        
-                     </div>
-
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
+   <div className="col-sm-6">
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <div className='meterbox'>
+                  <ReactSpeedometer
+                     width={200}
+                     height={150}
+                     labelFontSize={"11px"}
+                     needleColor={"white"}
+                     textColor={"white"}
+                     customSegmentStops={[0, 500, 700, 800, 900, 1000]}
+                     segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
+                     value={333}
+                     /> 
+                     <p className='speedh'>SOC</p>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div className="col-sm-6">
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <div className='meterbox'>
+                  <ReactSpeedometer
+                     width={200}
+                     height={150}
+                     labelFontSize={"11px"}
+                     needleColor={"white"}
+                     textColor={"white"}
+                     customSegmentStops={[0, 500, 700, 800, 900, 1000]}
+                     segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
+                     value={333}
+                     />
+                  <p className='speedh'>Battery Voltage</p>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
       </div>
 
       <div className="row dt">
-         <div className="col-sm-6">
-            <table>
-               <tbody>
-                  <tr>
-                     <td>
-
-
-                     <div className='meterbox'>
-{/* <ReactSpeedometer
-
-customSegmentStops={[0, 500, 700, 800, 900, 1000]}
-segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-value={333}
-/> */}
-</div>
-                    
-                     
-
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <div className="col-sm-6">
-            <table>
-               <tbody>
-                  <tr>
-                     <td>
-                     
-                     <div className='meterbox'>
-                        
-                     </div>
-
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
+   <div className="col-sm-6">
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <div className='meterbox'>
+                  <ReactSpeedometer
+                     width={200}
+                     height={150}
+                     labelFontSize={"11px"}
+                     needleColor={"white"}
+                     textColor={"white"}
+                     customSegmentStops={[0, 500, 700, 800, 900, 1000]}
+                     segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
+                     value={333}
+                     /> 
+                     <p className='speedh'>Battery Temperature</p>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div className="col-sm-6">
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <div className='meterbox'>
+                  <ReactSpeedometer
+                     width={200}
+                     height={150}
+                     labelFontSize={"11px"}
+                     needleColor={"white"}
+                     textColor={"white"}
+                     customSegmentStops={[0, 500, 700, 800, 900, 1000]}
+                     segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
+                     value={333}
+                     />
+                  <p className='speedh'>Cell Voltage</p>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
       </div>
 
       <div className="row dt">
-         <div className="col-sm-6">
-            <table>
-               <tbody>
-                  <tr>
-                     <td>
-
-
-                     <div className='meterbox'>
-{/* <ReactSpeedometer
-
-customSegmentStops={[0, 500, 700, 800, 900, 1000]}
-segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-value={333}
-/> */}
-</div>
-                    
-                     
-
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <div className="col-sm-6">
-            <table>
-               <tbody>
-                  <tr>
-                     <td>
-                     
-                     <div className='meterbox'>
-                        
-                     </div>
-
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
+   <div className="col-sm-6">
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <div className='meterbox'>
+                  <ReactSpeedometer
+                     width={200}
+                     height={150}
+                     labelFontSize={"11px"}
+                     needleColor={"white"}
+                     textColor={"white"}
+                     customSegmentStops={[0, 500, 700, 800, 900, 1000]}
+                     segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
+                     value={333}
+                     /> 
+                     <p className='speedh'>SOH</p>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div className="col-sm-6">
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <div className='meterbox'>
+                  <ReactSpeedometer
+                     width={200}
+                     height={150}
+                     labelFontSize={"11px"}
+                     needleColor={"white"}
+                     textColor={"white"}
+                     customSegmentStops={[0, 500, 700, 800, 900, 1000]}
+                     segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
+                     value={333}
+                     />
+                  <p className='speedh'>Cycle Count</p>
+                  </div>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
       </div>
       {/* Speed Meter end */}
    </div>
