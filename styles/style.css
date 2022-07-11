@@ -60,10 +60,33 @@ span.ms-1.d-sm-inline{
  padding-top: 10px;
  padding-bottom: 10px;
  border-bottom: 2px solid#F5F5F5;
- 
- 
-  
+ background-color: #fbfbfb;
+ margin-left: 1px;
+ margin-right: 1px;
+
 }
+
+.dtl{
+  border-radius:10px; 
+  border: 2px solid#F5F5F5;
+  padding:5px 5px 5px 5px;
+  margin: 5px;
+  background-color: #fbfbfb;
+
+}
+
+.row.dtm{
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid#F5F5F5;
+ }
+
+ .Overview{
+  padding-top: 25px;
+  padding-bottom: 25px;
+ }
 
 .icons{
   height: 22px;
@@ -82,5 +105,5 @@ padding-left: 10px;
 .speedh{
   color: white;
   text-align:center;
-  font-size:22px;
+  font-size:18px;
 }

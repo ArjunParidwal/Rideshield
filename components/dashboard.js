@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactSpeedometer from "react-d3-speedometer"
+// import ReactSpeedometer from "react-d3-speedometer"
 
 
 const dashboard = () => {
@@ -7,7 +7,8 @@ const dashboard = () => {
    <>
    <div className="col-md-8 rightbar">
    <div className="col-md-6 c">
-      <center><h4>Overview</h4></center>
+      <center><h4 className='Overview'>Overview</h4></center>
+      <div className='dtl'>
       <div className="row dt">
          <div className="col-sm-6">
             <table>
@@ -112,16 +113,17 @@ const dashboard = () => {
             </table>
          </div>
       </div>
+      </div>
 
       {/* Speed Meter Start*/}
-      <div className="row dt">
+      <div className="row dtm">
    <div className="col-sm-6">
       <table>
          <tbody>
             <tr>
                <td>
                   <div className='meterbox'>
-                  <ReactSpeedometer
+                  {/* <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -130,7 +132,7 @@ const dashboard = () => {
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
                      value={333}
-                     /> 
+                     /> */}
                      <p className='speedh'>SOC</p>
                   </div>
                </td>
@@ -144,7 +146,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  <ReactSpeedometer
+                  {/* <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -153,7 +155,7 @@ const dashboard = () => {
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
                      value={333}
-                     />
+                     /> */}
                   <p className='speedh'>Battery Voltage</p>
                   </div>
                </td>
@@ -163,14 +165,14 @@ const dashboard = () => {
    </div>
       </div>
 
-      <div className="row dt">
+      <div className="row dtm">
    <div className="col-sm-6">
       <table>
          <tbody>
             <tr>
                <td>
                   <div className='meterbox'>
-                  <ReactSpeedometer
+                  {/* <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -179,7 +181,7 @@ const dashboard = () => {
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
                      value={333}
-                     /> 
+                     />  */}
                      <p className='speedh'>Battery Temperature</p>
                   </div>
                </td>
@@ -193,7 +195,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  <ReactSpeedometer
+                  {/* <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -202,7 +204,7 @@ const dashboard = () => {
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
                      value={333}
-                     />
+                     /> */}
                   <p className='speedh'>Cell Voltage</p>
                   </div>
                </td>
@@ -212,14 +214,14 @@ const dashboard = () => {
    </div>
       </div>
 
-      <div className="row dt">
+      <div className="row dtm">
    <div className="col-sm-6">
       <table>
          <tbody>
             <tr>
                <td>
                   <div className='meterbox'>
-                  <ReactSpeedometer
+                  {/* <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -228,7 +230,7 @@ const dashboard = () => {
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
                      value={333}
-                     /> 
+                     />  */}
                      <p className='speedh'>SOH</p>
                   </div>
                </td>
@@ -242,7 +244,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  <ReactSpeedometer
+                  {/* <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -251,7 +253,7 @@ const dashboard = () => {
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
                      value={333}
-                     />
+                     /> */}
                   <p className='speedh'>Cycle Count</p>
                   </div>
                </td>
@@ -259,7 +261,7 @@ const dashboard = () => {
          </tbody>
       </table>
    </div>
-      </div>
+   </div>
       {/* Speed Meter end */}
    </div>
    <div className="col-md-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14025.513062112626!2d77.22901879999999!3d28.49826495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1657300133587!5m2!1sen!2sin" width="100%" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
