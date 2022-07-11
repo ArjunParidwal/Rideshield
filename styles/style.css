@@ -15,6 +15,7 @@
   background-color: white;
   margin-left:20px;
   border-radius:20px;
+  width: 78% !important;
 
 }
 
@@ -39,6 +40,7 @@ span.ms-1.d-sm-inline{
 .col-md-8{
   display: flex;
   padding: 10px 10px 10px 10px;
+  
 }
 
 .col-md-6.map{
@@ -53,14 +55,24 @@ span.ms-1.d-sm-inline{
  }
 
 .row.dt{
-  padding:10px 0px 0px 10px;
-  border-bottom: 2px solid#F5F5F5;
-  margin-left:-1px;
-  margin-right: -1px;
+ padding-left:10px;
+ padding-right: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-bottom: 2px solid#F5F5F5;
+ 
+ 
   
 }
 
 .icons{
   height: 22px;
   padding-right: 14px;
+}
+
+.meterbox{
+  height:150px;
+  width:190px;
+background:#2e2e4a;
+border-radius: 20px;
 }
