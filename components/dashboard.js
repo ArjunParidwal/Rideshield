@@ -1,6 +1,6 @@
 import React from 'react'
-// import ReactSpeedometer from "react-d3-speedometer"
-
+import dynamic from 'next/dynamic'
+const ReactSpeedometer = dynamic(import ("react-d3-speedometer"), {ssr: false})
 
 const dashboard = () => {
   return (
@@ -16,7 +16,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/battery_id.png' className='icons'/></td>
                      <td>
-                        <p>Battery ID<br/>#45672D</p>
+                        <p className='dashheading'>Battery ID<br/><p className='dashdata'>#45672D</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -28,7 +28,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/Battery_Configuration.png' className='icons' /></td>
                      <td>
-                        <p>Battery Configuration<br/>#45672D</p>
+                        <p>Battery Configuration<br/><p className='dashdata'>#45672D</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -42,7 +42,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/batter_collection.png' className='icons' /></td>
                      <td>
-                        <p>BMS Version<br/>#45672D</p>
+                        <p>BMS Version<br/><p className='dashdata'>GHDSH6S</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -54,7 +54,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/Chemistry.png' className='icons' /></td>
                      <td>
-                        <p>Chemistry<br/>#45672D</p>
+                        <p>Chemistry<br/><p className='dashdata'>#845672D</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -68,7 +68,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/battery-level.png' className='icons' /></td>
                      <td>
-                        <p>Battery Status<br/>#45672D</p>
+                        <p>Battery Status<br/><p className='dashdata'>80% ( Charging )</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -80,7 +80,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/low-battery.png' className='icons' /></td>
                      <td>
-                        <p>(Discharging)<br/>20%</p>
+                        <p>Battery Low Status<br/><p className='dashdata'>20% ( Discharging )</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -94,7 +94,7 @@ const dashboard = () => {
                   <tr>
                      <td><img src='../images/error_2.png' className='icons'/></td>
                      <td>
-                        <p>Faults (OCV, UV, etc)<br/>#45672D</p>
+                        <p>Faults (OCV, UV, etc)<br/><p className='dashdata'>Over Heating</p></p>
                      </td>
                   </tr>
                </tbody>
@@ -104,9 +104,9 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td></td>
+                     <td><img src='../images/error.png' className='icons'/></td>
                      <td>
-                        <p>Network Issue<br/><img src='../images/error.png' className='icons' />456</p>
+                        <p>Network Issue<br/><b style={{color:'#edb85c'}}>DNS Problems</b></p>
                      </td>
                   </tr>
                </tbody>
@@ -116,14 +116,14 @@ const dashboard = () => {
       </div>
 
       {/* Speed Meter Start*/}
-      <div className="row dtm">
+<div className="row dtm">
    <div className="col-sm-6">
       <table>
          <tbody>
             <tr>
                <td>
                   <div className='meterbox'>
-                  {/* <ReactSpeedometer
+                   <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -131,8 +131,8 @@ const dashboard = () => {
                      textColor={"white"}
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-                     value={333}
-                     /> */}
+                     value={450}
+                     />
                      <p className='speedh'>SOC</p>
                   </div>
                </td>
@@ -140,13 +140,14 @@ const dashboard = () => {
          </tbody>
       </table>
    </div>
+
    <div className="col-sm-6">
       <table>
          <tbody>
             <tr>
                <td>
                   <div className='meterbox'>
-                  {/* <ReactSpeedometer
+                   <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -154,8 +155,8 @@ const dashboard = () => {
                      textColor={"white"}
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-                     value={333}
-                     /> */}
+                     value={700}
+                     />
                   <p className='speedh'>Battery Voltage</p>
                   </div>
                </td>
@@ -163,7 +164,7 @@ const dashboard = () => {
          </tbody>
       </table>
    </div>
-      </div>
+</div>
 
       <div className="row dtm">
    <div className="col-sm-6">
@@ -172,7 +173,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  {/* <ReactSpeedometer
+                   <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -180,8 +181,8 @@ const dashboard = () => {
                      textColor={"white"}
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-                     value={333}
-                     />  */}
+                     value={800}
+                     />
                      <p className='speedh'>Battery Temperature</p>
                   </div>
                </td>
@@ -195,7 +196,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  {/* <ReactSpeedometer
+                  <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -203,8 +204,8 @@ const dashboard = () => {
                      textColor={"white"}
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-                     value={333}
-                     /> */}
+                     value={400}
+                     />
                   <p className='speedh'>Cell Voltage</p>
                   </div>
                </td>
@@ -221,7 +222,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  {/* <ReactSpeedometer
+                  <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -229,8 +230,8 @@ const dashboard = () => {
                      textColor={"white"}
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-                     value={333}
-                     />  */}
+                     value={200}
+                     />
                      <p className='speedh'>SOH</p>
                   </div>
                </td>
@@ -244,7 +245,7 @@ const dashboard = () => {
             <tr>
                <td>
                   <div className='meterbox'>
-                  {/* <ReactSpeedometer
+                  <ReactSpeedometer
                      width={200}
                      height={150}
                      labelFontSize={"11px"}
@@ -252,8 +253,8 @@ const dashboard = () => {
                      textColor={"white"}
                      customSegmentStops={[0, 500, 700, 800, 900, 1000]}
                      segmentColors={["#b86c73", "#c78670", "#e6cc87", "#a7bf89", "#b598af"]}
-                     value={333}
-                     /> */}
+                     value={500}
+                     />
                   <p className='speedh'>Cycle Count</p>
                   </div>
                </td>

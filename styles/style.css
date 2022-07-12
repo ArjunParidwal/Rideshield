@@ -1,3 +1,6 @@
+/* ---------------------- */
+    /*Global Side Bar*/
+/* ---------------------- */
 .b {
   background: #F5F5F5;
   padding:2% 2% 2% 2%;
@@ -5,105 +8,137 @@
 
 
 
-.siderbar {
-  background-color: white;
-  border-radius:20px;
-  
-}
 
-.rightbar {
-  background-color: white;
-  margin-left:20px;
-  border-radius:20px;
-  width: 78% !important;
 
-}
 
-/*  */
+/* ---------------------- */
+    /* Left Side Bar*/
+/* ---------------------- */
 
-.nav-item{
-  padding-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid#F5F5F5;
+span.ms-1.d-sm-inline{
+  padding-left:15px;
 }
 
 .col-md-4.siderbar {
   width:auto;
 }
 
-span.ms-1.d-sm-inline{
-  padding-left:20px;
+.siderbar {
+  background-color: white;
+  border-radius:15px;
+  box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
 }
 
-.col-md-8{
-  display: flex;
-  padding: 10px 10px 10px 10px;
-  
+.nav-item:hover{
+  color: #379ec2;
+  background: linear-gradient(267deg, rgba(255,255,255,1) 28%, rgba(21,216,255,0.18531162464985995) 52%);
+  border-left: 1px solid #318fb0;
+  border-radius:10px;
 }
 
-.col-md-6.map{
-  border: 2px solid #F5F5F5;
-  border-radius: 10px;
-  padding: 5px;
-}
-.col-md-6.c{
-  border: 2px solid #F5F5F5;
-  border-radius:10px; 
-  margin-right:5px;
- }
-
-.row.dt{
- padding-left:10px;
- padding-right: 10px;
- padding-top: 10px;
- padding-bottom: 10px;
- border-bottom: 2px solid#F5F5F5;
- background-color: #fbfbfb;
- margin-left: 1px;
- margin-right: 1px;
-
+.al {
+  text-decoration: none;
+  color: #425576;
 }
 
-.dtl{
-  border-radius:10px; 
-  border: 2px solid#F5F5F5;
-  padding:5px 5px 5px 5px;
-  margin: 5px;
-  background-color: #fbfbfb;
-
+.al:hover {
+ color: #379ec2;
 }
 
-.row.dtm{
-  padding-left:10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.nav-item{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid#F5F5F5;
- }
+}
 
- .Overview{
-  padding-top: 25px;
-  padding-bottom: 25px;
- }
 
-.icons{
-  height: 22px;
-  padding-right: 14px;
+/* ---------------------- */
+    /* Right Side Bar*/
+/* ---------------------- */
+
+.rightbar {
+  background-color: white;
+  margin-left:25px;
+  border-radius:25px;
+  width: 78% !important;
+  box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
+}
+
+.dashheading{
+  color: #425576;
+}
+
+.dashdata{color:#379ec2;
+font-weight: 700;
 }
 
 .meterbox{
   height:200px;
   width:220px;
-background:#2e2e4a;
-border-radius: 20px;
-padding-top: 10px;
-padding-left: 10px;
-}
+  background:#2e2e4a;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  }
 
-.speedh{
-  color: white;
-  text-align:center;
-  font-size:18px;
-}
+  .icons{
+    height: 22px;
+    padding-right: 14px;
+  }
+
+  .Overview{
+    padding-top: 25px;
+    padding-bottom: 25px;
+   }
+
+   .col-md-8{
+    display: flex;
+    padding: 10px 10px 10px 10px; 
+  }
+
+  .col-md-6.map{
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .dtl{
+    border-radius:10px; 
+    border: 2px solid #e5e5e5;
+    padding:5px 5px 5px 5px;
+    margin: 5px;
+    background-color: #fbfbfb;
+  }
+
+  .col-md-6.c{
+    border: 2px solid #e5e5e5;
+    border-radius:10px; 
+    margin-right:5px;
+   }
+
+   .row.dt{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid#e5e5e5;
+    background-color: #fbfbfb;
+    margin-left: 1px;
+    margin-right: 1px;
+   }
+
+   .speedh{
+    color: white;
+    text-align:center;
+    font-size:18px;
+  }
+
+  .row.dtm{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid#F5F5F5;
+   }
