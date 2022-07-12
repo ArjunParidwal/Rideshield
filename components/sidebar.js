@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const sidebar = () => {
   return (
@@ -9,19 +10,19 @@ const sidebar = () => {
          <h4>Ride Shield</h4>
       </li>
       <li className="nav-item">
-         <i className="bi bi-house-fill"></i><span className="ms-1  d-sm-inline"><a href='/' className='al'>Home</a></span>
+        <i className="bi bi-house-fill"></i><span className="ms-1  d-sm-inline"><Link href="/"><span className='al'>Home</span></Link></span>
       </li>
       <li className="nav-item">
-         <i className="bi bi-battery"></i><span className="ms-1  d-sm-inline" ><a href='Battery_Overview' className='al'>Battery Overview</a></span>
+         <i className="bi bi-battery"></i><span className="ms-1  d-sm-inline" ><Link href="Battery_Overview"><span className='al'>Battery Overview</span></Link></span>
       </li>
       <li className="nav-item">
-         <i className="bi bi-truck"></i><span className="ms-1  d-sm-inline"><a href='Fleet_Overview' className='al'>Fleet Overview</a></span>
+         <i className="bi bi-truck"></i><span className="ms-1  d-sm-inline"><Link href="Fleet_Overview"><span className='al'>Fleet Overview</span></Link></span> 
       </li>
       <li className="nav-item">
-         <i className="bi bi-battery-charging"></i><span className="ms-1  d-sm-inline"><a href='Battery_Details' className='al'>Battery Details</a></span>
+         <i className="bi bi-battery-charging"></i><span className="ms-1  d-sm-inline"><Link href="Battery_Details"><span className='al'>Battery Details</span></Link></span>
       </li>
       <li className="nav-item">
-         <i className="bi bi-pie-chart-fill"></i><span className="ms-1  d-sm-inline"><a href='Reports' className='al'>Reports</a></span>
+         <i className="bi bi-pie-chart-fill"></i><span className="ms-1  d-sm-inline"><Link href="Reports"><span className='al'>Reports</span></Link></span>
       </li>
    </ul>
 </div>

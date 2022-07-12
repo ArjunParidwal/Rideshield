@@ -39,6 +39,7 @@ span.ms-1.d-sm-inline{
 .al {
   text-decoration: none;
   color: #425576;
+  cursor: pointer;
 }
 
 .al:hover {
