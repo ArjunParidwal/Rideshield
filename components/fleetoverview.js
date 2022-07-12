@@ -12,13 +12,13 @@
          <div className="row overdt">
          <center><h4>Battery Fault Status</h4></center>
             <div className="col-sm-12">
-            <div class="col-sm-12 table">Overcurrent Cut Off</div>
-            <div class="col-sm-12 table">Overvoltage Cut Off</div>
-            <div class="col-sm-12 table">Low SOC</div>
-            <div class="col-sm-12 table">Geofence Breach</div>
-            <div class="col-sm-12 table">Overspeeding</div>
-            <div class="col-sm-12 table">Low SOH</div>
-            <div class="col-sm-12 table">Undervoltage cutoff</div>
+            <div className="col-sm-12 table">Overcurrent Cut Off</div>
+            <div className="col-sm-12 table">Overvoltage Cut Off</div>
+            <div className="col-sm-12 table">Low SOC</div>
+            <div className="col-sm-12 table">Geofence Breach</div>
+            <div className="col-sm-12 table">Overspeeding</div>
+            <div className="col-sm-12 table">Low SOH</div>
+            <div className="col-sm-12 table">Undervoltage cutoff</div>
             </div>
          </div>
          </div>
@@ -28,12 +28,12 @@
          <div className="row overdt">
          <center><h4>Battery Use Status</h4></center>
             <div className="col-sm-12">
-            <div class="col-sm-12 table">Idle</div>
-            <div class="col-sm-12 table">In Soft Fault</div>
-            <div class="col-sm-12 table">In Hard Fault</div>
-            <div class="col-sm-12 table">Charging</div>
-            <div class="col-sm-12 table">Discharging</div>
-            <div class="col-sm-12 table">Unallocated</div>
+            <div className="col-sm-12 table">Idle</div>
+            <div className="col-sm-12 table">In Soft Fault</div>
+            <div className="col-sm-12 table">In Hard Fault</div>
+            <div className="col-sm-12 table">Charging</div>
+            <div className="col-sm-12 table">Unallocated</div>
+            <div className="col-sm-12 table">Discharging</div>
             </div>
          </div>
          </div>
