@@ -8,8 +8,7 @@ export default function Battery_Overview() {
     <div className="container-fluid">
         <div className="row b">
         <Sidebar/>
-        <Dashboard />
-        {/* <Meter /> */}
+       
         </div>
     </div>
         </>

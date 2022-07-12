@@ -116,6 +116,7 @@ const dashboard = () => {
       </div>
 
       {/* Speed Meter Start*/}
+<div className='dtl'>
 <div className="row dtm">
    <div className="col-sm-6">
       <table>
@@ -165,7 +166,6 @@ const dashboard = () => {
       </table>
    </div>
 </div>
-
       <div className="row dtm">
    <div className="col-sm-6">
       <table>
@@ -261,6 +261,7 @@ const dashboard = () => {
             </tr>
          </tbody>
       </table>
+   </div>
    </div>
    </div>
       {/* Speed Meter end */}

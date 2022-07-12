@@ -1,9 +1,18 @@
 import React from 'react'
+import Sidebar from '../components/sidebar'
+import Fleetoverview from '../components/fleetoverview'
 
-export default function Fleet_Overview() {
+const Fleet_Overview = () => {
   return (
-    <div>
-       <center><h1>Fleet Overview Page</h1></center>
+    <>
+    <div className="container-fluid">
+        <div className="row b">
+        <Sidebar/>
+        <Fleetoverview />
+        </div>
     </div>
+        </>
   )
 }
+
+export default Fleet_Overview
