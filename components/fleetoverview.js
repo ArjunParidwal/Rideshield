@@ -12,7 +12,7 @@
          <div className="row overdt">
          <center><h4>Battery Fault Status</h4></center>
             <div className="col-sm-12">
-            <div className="col-sm-12 table">Overcurrent Cut Off</div>
+            <div className="col-sm-12 table">Overcurrent Cut Off  <label className='lables'>(4%, 4/100)</label></div>
             <div className="col-sm-12 table">Overvoltage Cut Off</div>
             <div className="col-sm-12 table">Low SOC</div>
             <div className="col-sm-12 table">Geofence Breach</div>

@@ -171,4 +171,58 @@ font-weight: 700;
    border: 1px solid#e5e5e5;
    margin:0px;
    padding:10px;
+   color: #425576;
+  }
+
+  .lables{
+    background-color: #379ec2;
+    border-radius: 20px;
+    color:white;
+    padding:5px 20px 5px 20px;
+    margin-left: 100px;
+    font-size: 13px;
+    
+  }
+
+  /* battery overview */
+  .col-md-3.c{
+    border: 2px solid #e5e5e5;
+    border-radius:10px; 
+    margin-right:5px;
+   }
+
+   .col-md-3.map{
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .tableb{
+   
+   margin:0px;
+   padding:10px;
+   color: #425576;
+  }
+
+  .row.chart{
+    border: none;
+    justify-content: space-around;
+    
+
+  }
+
+  .col-sm-3.chart{
+    width: 32%;
+    border-radius:10px;
+    border: 2px solid #e5e5e5;
+    margin-top: 10px;
+  }
+
+  .lablesover{
+    background-color: #379ec2;
+    border-radius: 20px;
+    color:white;
+    padding:5px 20px 5px 20px;
+    font-size: 12px;
+
   }
