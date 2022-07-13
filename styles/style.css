@@ -211,11 +211,12 @@ font-weight: 700;
 
   }
 
-  .col-sm-3.chart{
-    width: 32%;
+  .col-sm-6.chart{
+    width:49%;
     border-radius:10px;
     border: 2px solid #e5e5e5;
     margin-top: 10px;
+  
     
   }
 
@@ -225,5 +226,11 @@ font-weight: 700;
     color:white;
     padding:5px 20px 5px 20px;
     font-size: 12px;
+    margin-left: 5%;
+    margin-top:5%;
 
   }
+
+.ltime{
+  padding: 10px;
+}

@@ -19,10 +19,10 @@ const sidebar = () => {
          <i className="bi bi-truck"></i><span className="ms-1  d-sm-inline"><Link href="Fleet_Overview"><span className='al'>Fleet Overview</span></Link></span> 
       </li>
       <li className="nav-item">
-         <i className="bi bi-battery-charging"></i><span className="ms-1  d-sm-inline"><Link href="Battery_Details"><span className='al'>Battery Details</span></Link></span>
+         <i className="bi bi-battery-charging"></i><span className="ms-1  d-sm-inline"><Link href="/"><span className='al'>Battery Details</span></Link></span>
       </li>
       <li className="nav-item">
-         <i className="bi bi-pie-chart-fill"></i><span className="ms-1  d-sm-inline"><Link href="Reports"><span className='al'>Reports</span></Link></span>
+         <i className="bi bi-pie-chart-fill"></i><span className="ms-1  d-sm-inline"><Link href="/"><span className='al'>Reports</span></Link></span>
       </li>
    </ul>
 </div>
