@@ -13,85 +13,85 @@ const batteryoverview = () => {
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Power</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Voltage</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">SOC</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Cell Voltage</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Temperature</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Max-Min Voltage</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Cycles</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">SOH</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Speed</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Voltage</label><label className="lablesover">Temperature</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">SOH</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
             <div className="col-sm-6 chart">
                <Charts />
                <label className="lablesover">Temp.Min Max Avg.</label>
-               <div class="col-sm-6 ltime">
-                  <span class="bi bi-clock">12:45 AM</span>
+               <div className="col-sm-6 ltime">
+                  <span className="bi bi-clock">12:45 AM</span>
                </div>
             </div>
          </div>
