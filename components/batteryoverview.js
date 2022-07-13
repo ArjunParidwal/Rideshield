@@ -7,25 +7,25 @@ const batteryoverview = () => {
         <>
         <div className="col-md-8 rightbar">
       <div className="col-md-6 c">
-      <div class="container">
-   <div class="row chart">
-      <div class="col-sm-3 chart">
+      <div className="container">
+   <div className="row chart">
+      <div className="col-sm-3 chart">
          One of three columns
-         <label class="lablesover">(4%, 4/100)</label>
+         <label className="lablesover">(4%, 4/100)</label>
       </div>
-      <div class="col-sm-3 chart">
-         One of three columns
-      </div>
-      <div class="col-sm-3 chart">
+      <div className="col-sm-3 chart">
          One of three columns
       </div>
-      <div class="col-sm-3 chart">
+      <div className="col-sm-3 chart">
          One of three columns
       </div>
-      <div class="col-sm-3 chart">
+      <div className="col-sm-3 chart">
          One of three columns
       </div>
-      <div class="col-sm-3 chart">
+      <div className="col-sm-3 chart">
+         One of three columns
+      </div>
+      <div className="col-sm-3 chart">
          One of three columns
       </div>
    </div>
