@@ -1,6 +1,7 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 const ReactSpeedometer = dynamic(import ("react-d3-speedometer"), {ssr: false})
+import Charts from '../components/charts'
 
 const batteryoverview = () => {
     return (
@@ -10,24 +11,16 @@ const batteryoverview = () => {
       <div className="container">
    <div className="row chart">
       <div className="col-sm-3 chart">
-         One of three columns
+        <Charts />
          <label className="lablesover">(4%, 4/100)</label>
       </div>
       <div className="col-sm-3 chart">
-         One of three columns
+        2
       </div>
       <div className="col-sm-3 chart">
-         One of three columns
+        3
       </div>
-      <div className="col-sm-3 chart">
-         One of three columns
-      </div>
-      <div className="col-sm-3 chart">
-         One of three columns
-      </div>
-      <div className="col-sm-3 chart">
-         One of three columns
-      </div>
+      
    </div>
 </div>
       </div>

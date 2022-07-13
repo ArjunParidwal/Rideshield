@@ -3,7 +3,7 @@
 /* ---------------------- */
 .b {
   background: #F5F5F5;
-  padding:2% 2% 2% 2%;
+  padding:1% 1% 1% 1%;
 }
 
 
@@ -62,9 +62,9 @@ span.ms-1.d-sm-inline{
 
 .rightbar {
   background-color: white;
-  margin-left:25px;
-  border-radius:25px;
-  width: 78% !important;
+  margin-left:10px;
+  border-radius:15px;
+  width: 80% !important;
   box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
 }
 
@@ -216,6 +216,7 @@ font-weight: 700;
     border-radius:10px;
     border: 2px solid #e5e5e5;
     margin-top: 10px;
+    
   }
 
   .lablesover{
