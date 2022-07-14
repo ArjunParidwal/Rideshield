@@ -4,7 +4,7 @@ import Link from 'next/link'
 const sidebar = () => {
   return (
     <>
-    <div className="col-md-4 siderbar">
+   <div className="col-md-4 siderbar">
    <ul className="nav flex-column">
       <li className="nav-item">
          <h4>Ride Shield</h4>
@@ -26,6 +26,9 @@ const sidebar = () => {
       </li>
    </ul>
 </div>
+
+
+
     </>
   )
 }

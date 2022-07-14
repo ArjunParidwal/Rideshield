@@ -235,3 +235,24 @@ font-weight: 700;
 .ltime{
   padding: 10px;
 }
+/* Moblie */
+   
+
+@media screen and (max-width: 3000px) {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-md-4.siderbar{
+    display: none;
+  }
+}
+
