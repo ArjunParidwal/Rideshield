@@ -1,6 +1,7 @@
 import Sidebar from "../components/sidebar"
 import Dashboard from "../components/dashboard"
 import Menu from "../components/menu"
+import Script from 'next/script';
 
 
 
