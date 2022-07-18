@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const ReactSpeedometer = dynamic(import ("react-d3-speedometer"), {ssr: false})
 
@@ -14,7 +15,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><Image src='../images/battery_id.png' className='icons'/></td>
+                     <td><Image src='../images/battery_id.png' className='icons' /></td>
                      <td>
                         <p className='dashheading'>Battery ID<br/><p className='dashdata'>#45672D</p></p>
                      </td>
