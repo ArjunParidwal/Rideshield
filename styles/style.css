@@ -256,3 +256,15 @@ font-weight: 700;
   }
 }
 
+@media screen and (max-width: 480px) {
+  .col-md-8.rightbar{
+    margin: 10%;
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-sm-6.chart{
+    display: inline-table;
+  }
+}
