@@ -14,7 +14,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/battery_id.png' className='icons'/></td>
+                     <td><Image src='../images/battery_id.png' className='icons'/></td>
                      <td>
                         <p className='dashheading'>Battery ID<br/><p className='dashdata'>#45672D</p></p>
                      </td>
@@ -26,7 +26,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/Battery_Configuration.png' className='icons' /></td>
+                     <td><Image src='../images/Battery_Configuration.png' className='icons' /></td>
                      <td>
                         <p>Battery Configuration<br/><p className='dashdata'>#45672D</p></p>
                      </td>
@@ -40,7 +40,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/batter_collection.png' className='icons' /></td>
+                     <td><Image src='../images/batter_collection.png' className='icons' /></td>
                      <td>
                         <p>BMS Version<br/><p className='dashdata'>GHDSH6S</p></p>
                      </td>
@@ -52,7 +52,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/Chemistry.png' className='icons' /></td>
+                     <td><Image src='../images/Chemistry.png' className='icons' /></td>
                      <td>
                         <p>Chemistry<br/><p className='dashdata'>#845672D</p></p>
                      </td>
@@ -66,7 +66,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/battery-level.png' className='icons' /></td>
+                     <td><Image src='../images/battery-level.png' className='icons' /></td>
                      <td>
                         <p>Battery Status<br/><p className='dashdata'>80% ( Charging )</p></p>
                      </td>
@@ -78,7 +78,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/low-battery.png' className='icons' /></td>
+                     <td><Image src='../images/low-battery.png' className='icons' /></td>
                      <td>
                         <p>Battery Low Status<br/><p className='dashdata'>20% ( Discharging )</p></p>
                      </td>
@@ -92,7 +92,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/error_2.png' className='icons'/></td>
+                     <td><Image src='../images/error_2.png' className='icons'/></td>
                      <td>
                         <p>Faults (OCV, UV, etc)<br/><p className='dashdata'>Over Heating</p></p>
                      </td>
@@ -104,7 +104,7 @@ const dashboard = () => {
             <table>
                <tbody>
                   <tr>
-                     <td><img src='../images/error.png' className='icons'/></td>
+                     <td><Image src='../images/error.png' className='icons'/></td>
                      <td>
                         <p>Network Issue<br/><b style={{color:'#edb85c'}}>DNS Problems</b></p>
                      </td>
