@@ -7,7 +7,7 @@ export default class menu extends Component {
 <>
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
    <div className="container-fluid">
-   <Link className="navbar-brand" href="/">Ride Shield</Link>
+   <a href="/" className="navbar-brand">Ride Shield</a>
       {/* <Link className="navbar-brand" href="/">Ride Shield</Link> */}
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
