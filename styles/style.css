@@ -3,8 +3,6 @@
 /* ---------------------- */
 .b {
   background: #F5F5F5;
-  padding-left: 9px;
-  padding-top:20px;
 }
 
 
@@ -26,7 +24,7 @@ span.ms-1.d-sm-inline{
 
 .siderbar {
   background-color: white;
-  border-radius:15px;
+  border-top-right-radius:10px;
   box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
 }
 
@@ -64,8 +62,8 @@ span.ms-1.d-sm-inline{
 .rightbar {
   background-color: white;
   margin-left:10px;
-  border-radius:15px;
-  width: 80% !important;
+  border-radius:10px;
+  width: 81% !important;
   box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
 }
 
@@ -237,13 +235,14 @@ font-weight: 700;
 }
 /* Moblie */
    
-
+/* For Side Bar Hide  */
 @media screen and (max-width: 3000px) {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light{
     display: none;
   }
 }
 
+/* For Show Mobile Menu */
 @media screen and (max-width: 480px) {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light{
     display: flex;
@@ -258,8 +257,7 @@ font-weight: 700;
 
 @media screen and (max-width: 480px) {
   .col-md-8.rightbar{
-    margin: 10%;
-    display: grid;
+  display: inline-table;
   }
 }
 
@@ -267,4 +265,10 @@ font-weight: 700;
   .col-sm-6.chart{
     display: inline-table;
   }
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+
 }
