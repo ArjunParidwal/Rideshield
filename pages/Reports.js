@@ -1,11 +1,19 @@
 import React from 'react'
+import Menu from '../components/menu'
+import Sidebar from '../components/sidebar'
+import Report from '../components/report'
 
 const Reports = () => {
   return (
-    
     <div>
-      <center><h1>Reports Page</h1></center>
-    </div>
+    <div className="container-fluid">
+      <div className="row b">
+      <Menu />
+      <Sidebar/>
+     <Report />
+      </div>
+  </div>
+  </div>
   )
 }
 
