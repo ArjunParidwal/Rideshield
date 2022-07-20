@@ -27,7 +27,6 @@ span.ms-1.d-sm-inline{
 .siderbar {
   background-color: white;
   border-top-right-radius:10px;
-  border-bottom-right-radius:10px;
   box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
 }
 
@@ -70,6 +69,14 @@ span.ms-1.d-sm-inline{
   box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
 }
 
+.rightbars{
+  background-color: white;
+  margin-left:10px;
+  border-radius:10px;
+  width: 81% !important;
+  box-shadow: 0 2px 15px 0 rgb(2 2 2 / 20%); 
+  flex-direction: column;
+}
 .dashheading{
   color: #425576;
 }
@@ -100,6 +107,7 @@ font-weight: 700;
    .col-md-8{
     display: flex;
     padding: 10px 10px 10px 10px; 
+   
   }
 
   .col-md-6.map{
@@ -121,6 +129,21 @@ font-weight: 700;
     border-radius:10px; 
     margin-right:5px;
    }
+
+   .col-md-12.bo {
+    padding: 12px;
+   }
+
+   /* Batteryoverview */
+   col-md-12 .bo {
+    border: 2px solid #e5e5e5;
+    border-radius:10px; 
+    margin-right:5px;
+   }
+
+
+
+   /* end */
 
    .row.dt{
     padding-left:10px;
@@ -193,10 +216,20 @@ font-weight: 700;
     margin-right:5px;
    }
 
-   .col-md-3.map{
+   .col-md-12.c{
+    border: 2px solid #e5e5e5;
+    border-radius:10px; 
+    margin-right:5px;
+   }
+
+   .col-md-12.map{
     border: 2px solid #e5e5e5;
     border-radius: 10px;
     padding: 5px;
+    margin-top: 1%;
+   height: 30rem;;
+    
+    
   }
 
   .tableb{
@@ -204,22 +237,25 @@ font-weight: 700;
    margin:0px;
    padding:10px;
    color: #425576;
+   display: table-cell;
   }
 
   .row.chart{
     border: none;
     justify-content: space-around;
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     
 
   }
 
   .col-sm-6.chart{
-    width:49%;
+    width:24%;
     border-radius:10px;
     border: 2px solid #e5e5e5;
     margin-top: 10px;
-  
-    
   }
 
   .lablesover{
