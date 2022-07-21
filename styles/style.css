@@ -297,6 +297,16 @@ font-weight: 700;
 @media screen and (max-width: 480px) {
   .col-md-8.rightbar{
   display: inline-table;
+  width: fit-content !important;
+  margin: 0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-md-8.rightbars{
+  display: inline-table;
+  width: fit-content !important;
+  margin: 0rem;
   }
 }
 

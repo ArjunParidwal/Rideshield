@@ -37,14 +37,14 @@ export default class menu extends Component {
             <li className="nav-item">
                <i className="bi bi-battery-charging"></i>
                <span className="ms-1  d-sm-inline">
-                  <Link href="/">
+                  <Link href="Battery_Details">
                   <span className='al'>Battery Details</span></Link>
                </span>
             </li>
             <li className="nav-item">
                <i className="bi bi-pie-chart-fill"></i>
                <span className="ms-1  d-sm-inline">
-                  <Link href="/">
+                  <Link href="Reports">
                   <span className='al'>Reports</span></Link>
                </span>
             </li>
