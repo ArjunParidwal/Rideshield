@@ -99,8 +99,8 @@ const batteryoverview = () => {
    </div>
    <div className="col-md-12 c">
   <div className="row align-items-center">
-    <div className="col-sm-3">
-    <div className="col-sm-12 tableb">
+    <div className="col-sm-3" >
+    <div className="col-sm-12 tableb d-flex justify-content-center pd">
             <div className='meterbox'>
                <ReactSpeedometer
                width={200}
@@ -117,7 +117,7 @@ const batteryoverview = () => {
          </div>
     </div>
     <div className="col-sm-3">
-    <div className="col-sm-12 tableb">
+    <div className="col-sm-12 tableb d-flex justify-content-center pd">
             <div className='meterbox'>
                <ReactSpeedometer
                width={200}
@@ -134,7 +134,7 @@ const batteryoverview = () => {
          </div>
     </div>
     <div className="col-sm-3">
-    <div className="col-sm-12 tableb">
+    <div className="col-sm-12 tableb d-flex justify-content-center pd">
             <div className='meterbox'>
                <ReactSpeedometer
                width={200}
@@ -151,7 +151,7 @@ const batteryoverview = () => {
          </div>
     </div>
     <div className="col-sm-3">
-    <div className="col-sm-12 tableb">
+    <div className="col-sm-12 tableb d-flex justify-content-center pd">
             <div className='meterbox'>
                <ReactSpeedometer
                width={200}
@@ -168,7 +168,7 @@ const batteryoverview = () => {
          </div>
     </div>
     <div className="col-sm-3">
-    <div className="col-sm-12 tableb">
+    <div className="col-sm-12 tableb d-flex justify-content-center pd">
             <div className='meterbox'>
                <ReactSpeedometer
                width={200}

@@ -10,7 +10,7 @@ const dashboard = () => {
       <center><h4 className='Overview'>Overview</h4></center>
       <div className='dtl'>
       <div className="row dt">
-         <div className="col-sm-6">
+         <div className="col-sm-6 rdt">
             <table>
                <tbody>
                   <tr>
@@ -118,7 +118,7 @@ const dashboard = () => {
       {/* Speed Meter Start*/}
 <div className='dtl'>
 <div className="row dtm">
-   <div className="col-sm-6">
+   <div className="col-sm-6 d-flex justify-content-center pd">
       <table>
          <tbody>
             <tr>
@@ -142,7 +142,7 @@ const dashboard = () => {
       </table>
    </div>
 
-   <div className="col-sm-6">
+   <div className="col-sm-6 d-flex justify-content-center pd">
       <table>
          <tbody>
             <tr>
@@ -167,7 +167,7 @@ const dashboard = () => {
    </div>
 </div>
       <div className="row dtm">
-   <div className="col-sm-6">
+   <div className="col-sm-6 d-flex justify-content-center pd">
       <table>
          <tbody>
             <tr>
@@ -190,7 +190,7 @@ const dashboard = () => {
          </tbody>
       </table>
    </div>
-   <div className="col-sm-6">
+   <div className="col-sm-6 d-flex justify-content-center pd">
       <table>
          <tbody>
             <tr>
@@ -216,7 +216,7 @@ const dashboard = () => {
       </div>
 
       <div className="row dtm">
-   <div className="col-sm-6">
+   <div className="col-sm-6 d-flex justify-content-center pd">
       <table>
          <tbody>
             <tr>
@@ -239,7 +239,7 @@ const dashboard = () => {
          </tbody>
       </table>
    </div>
-   <div className="col-sm-6">
+   <div className="col-sm-6 d-flex justify-content-center pd">
       <table>
          <tbody>
             <tr>
